@@ -29,7 +29,7 @@ const Main = () => {
             <span>
               The next name on the teamsheet is: {names[number].name}{" "}
               {names[number].emoji}{" "}
-              <img src = {names[number].imgUrl} />
+              <img src = {names[number].imgUrl} /> 
             </span>
           </>
         )}
