@@ -5,7 +5,8 @@
 .Main {
   padding: 3rem;
   height: 100vh;
-  background-color: lightblue;
+  background-color: red;
+  color: white;
 }
 
 .Content {

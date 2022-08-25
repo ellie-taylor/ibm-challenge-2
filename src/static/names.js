@@ -1,22 +1,22 @@
 export default [
   {
     name: "Harry Kane",
-    emoji: "🎯"
+    emoji: "🎯",
+    imgUrl: "images/harry.png"
   },
   {
     name: "Jordan Pickford",
-    emoji: "🧤"
-  },
+    emoji: "🧤",
+    imgUrl: "images/harry.png"  },
   {
     name: "Raheem Sterling",
-    emoji: "🚀"
-  },
-  // 💰: Put an appropriate emoji (or word...!) in the speech marks below, and then keep clicking the button until you can check
-  // 💰 : If you can't find an emoji, you can copy this one: 🦸🏻‍♂️
-  { name: "Phil Foden", emoji: "" },
-  { name: "Mason Mount", emoji: "🙌" },
-  { name: "Kyle Walker", emoji: "🏃🏾" },
-  { name: "Jack Grealish", emoji: "🧙‍♂️" },
-  { name: "Harry Maguire", emoji: "🪨" },
-  { name: "Jadon Sancho", emoji: "🧨" }
+    emoji: "🚀",
+    imgUrl: "images/harry.png"  },
+
+  { name: "Phil Foden", emoji: "🦸🏻‍♂️", imgUrl: "images/harry.png" },
+  { name: "Mason Mount", emoji: "🙌", imgUrl: "images/harry.png" },
+  { name: "Kyle Walker", emoji: "🏃🏾", imgUrl: "images/harry.png" },
+  { name: "Jack Grealish", emoji: "🧙‍♂️", imgUrl: "images/harry.png" },
+  { name: "Harry Maguire", emoji: "🪨", imgUrl: "images/harry.png"},
+  { name: "Jadon Sancho", emoji: "🧨", imgUrl: 'images/harry.png' }
 ];

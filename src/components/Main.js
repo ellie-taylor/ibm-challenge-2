@@ -14,6 +14,12 @@ const Main = () => {
   const handleReset = () => {
     setNumber(null);
   };
+
+  function alertMessage() {
+    alert('Euro 2020 here we come 🤩')
+  }
+
+
   return (
     <div className="Main">
       <h3>England Football Team Player Selector System (EFTPSS 🄒):</h3>
@@ -22,7 +28,8 @@ const Main = () => {
           <>
             <span>
               The next name on the teamsheet is: {names[number].name}{" "}
-              {names[number].emoji}
+              {names[number].emoji}{" "}
+              <img src = {names[number].imgUrl} />
             </span>
           </>
         )}
@@ -30,20 +37,23 @@ const Main = () => {
       <button onClick={handleClick} type="button">
         {number
           ? "Click me to pick someone else 🔁"
-          : "Click me to pick your first player 1️⃣"}
+          : "Click me to pick your first player 1️⃣"
+        }
       </button>
       {number && (
         <button onClick={handleReset} type="button">
           Did you break it? Reset everything 🛑
         </button>
       )}
+      
       <div className="TournamentButton">
-        {/* 💰: You can add a button that looks something like: 
-         <button type="button">Euro 2020 here we come 🤩</button>
-      */}
+        { 
+         <button onClick= {alertMessage} type="button">Go to the tournament ⚽️</button>
+        }
       </div>
     </div>
   );
 };
 
 export default Main;
+
